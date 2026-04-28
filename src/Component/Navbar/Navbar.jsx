@@ -1,9 +1,10 @@
+import { ShoppingCart } from 'lucide-react';
 import React from 'react';
 
 const Navbar = () => {
     return (
-        <div>
-            <div className="navbar bg-base-100 shadow-sm">
+        <div >
+            <div className="navbar bg-base-100 p-5  container mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -12,36 +13,28 @@ const Navbar = () => {
                         <ul
                             tabIndex="-1"
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><a>Item 1</a></li>
-                            <li>
-                                <a>Parent</a>
-                                <ul className="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </li>
-                            <li><a>Item 3</a></li>
+                            <li><a>Products</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a>Pricing</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">FAQ</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <a className=" text-3xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">DigiTools</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <details>
-                                <summary>Parent</summary>
-                                <ul className="p-2 bg-base-100 w-40 z-1">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </details>
-                        </li>
-                        <li><a>Item 3</a></li>
+                        <li><a>Products</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a>Pricing</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">FAQ</a></li>
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <a className="btn">Button</a>
+                <div className="navbar-end gap-3">
+                    <a className='' href="#"><ShoppingCart></ShoppingCart></a>
+                    <a  className="" href="#">Login</a>
+                    <a className="btn bg-gradient-to-r from-indigo-600 to-purple-600  rounded-full font-bold text-white">Get Started</a>
                 </div>
             </div>
         </div>
