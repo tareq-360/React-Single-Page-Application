@@ -2,14 +2,14 @@ import React, { Suspense, use } from 'react';
 import icon from '../../assets/assets/products/design-tool.png'
 
 
-const cardDataFetch = fetch('/public/fetchData.json').then(res => res.json());
 
-const Cards = () => {
-    const cardData = use(cardDataFetch);
+
+const Cards = ({cardData}) => {
+    
     //  console.log(cardData);
-    // { cardData.map(data => console.log(data.name)) };
+    // {cardData.map(data => console.log(data.name)) };
     return (
-        <Suspense fallback={<span className="loading loading-dots loading-xl"></span> }>
+        
             <div className=' container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10'>
                 {cardData.map((data , ind) =>
                     <div key={ind} className=" bg-base-100 shadow-sm">
@@ -44,7 +44,7 @@ const Cards = () => {
                     </div>
                 )}
             </div>
-        </Suspense>
+        
     );
 };
 
