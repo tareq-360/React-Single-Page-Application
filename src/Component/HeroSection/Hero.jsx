@@ -11,9 +11,14 @@ const Hero = () => {
                 </div>
                 <div className=' flex-1 pl-5'>
                     <div className=''>
-                        <p className='bg-[#E1E7FF] rounded-full p-[2px] w-[60%]'>
-                            <p className=' flex  text-blue-600 rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...  bg-clip-text text-transparent'><span className='flex justify-center items-center '><CircleStop size={10} color="#342bb6"></CircleStop></span> New: AI-Powered Tools Available</p>
-                        </p>
+                        <div className='bg-[#E1E7FF] rounded-full p-[2px] w-[60%]'>
+                            <p className=' flex  text-blue-600 rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...  bg-clip-text text-transparent'>
+                                <span className='flex justify-center items-center '>
+                                    <CircleStop size={10} color="#342bb6"></CircleStop>
+                                </span> 
+                                New: AI-Powered Tools Available
+                                </p>
+                        </div>
 
                         <h1 className="text-5xl font-bold">Supercharge Your Digital Workflow</h1>
                         <p className="py-6">

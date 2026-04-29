@@ -1,0 +1,342 @@
+[
+  {
+    "id": 7,
+    "name": "JavaScript Essentials",
+    "description": "Master core JavaScript concepts including ES6, DOM, and event handling.",
+    "price": 70,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "ES6+ features",
+      "DOM manipulation",
+      "Event handling",
+      "Mini projects",
+      "Debugging skills"
+    ],
+    "icon": "fa-js"
+  },
+  {
+    "id": 8,
+    "name": "React JS Complete Guide",
+    "description": "Build dynamic and fast web apps using React and modern tools.",
+    "price": 180,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Components & Hooks",
+      "State management",
+      "Routing",
+      "API integration",
+      "Project deployment"
+    ],
+    "icon": "fa-react"
+  },
+  {
+    "id": 9,
+    "name": "UI/UX Design Mastery",
+    "description": "Learn modern UI/UX design principles and tools like Figma.",
+    "price": 90,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Design principles",
+      "Figma basics",
+      "Wireframing",
+      "Prototyping",
+      "User research"
+    ],
+    "icon": "fa-pencil-ruler"
+  },
+  {
+    "id": 10,
+    "name": "Python for Beginners",
+    "description": "Start coding with Python and build logic for AI and web.",
+    "price": 60,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Python basics",
+      "Loops & functions",
+      "File handling",
+      "Mini projects",
+      "Problem solving"
+    ],
+    "icon": "fa-python"
+  },
+  {
+    "id": 11,
+    "name": "Data Science with Python",
+    "description": "Analyze data using Pandas, NumPy, and visualization tools.",
+    "price": 220,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Pandas & NumPy",
+      "Data cleaning",
+      "Visualization",
+      "Real datasets",
+      "Case studies"
+    ],
+    "icon": "fa-chart-line"
+  },
+  {
+    "id": 12,
+    "name": "Deep Learning Specialization",
+    "description": "Understand neural networks and deep learning models.",
+    "price": 300,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Neural networks",
+      "TensorFlow basics",
+      "CNN & RNN",
+      "Model training",
+      "AI projects"
+    ],
+    "icon": "fa-network-wired"
+  },
+  {
+    "id": 13,
+    "name": "Freelancing & Marketplace Guide",
+    "description": "Learn how to earn online through Fiverr and Upwork.",
+    "price": 40,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Profile setup",
+      "Gig creation",
+      "Client communication",
+      "Portfolio tips",
+      "Earning strategies"
+    ],
+    "icon": "fa-briefcase"
+  },
+  {
+    "id": 14,
+    "name": "WordPress Development",
+    "description": "Build websites quickly using WordPress and themes.",
+    "price": 75,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Theme customization",
+      "Plugins",
+      "SEO basics",
+      "E-commerce setup",
+      "Live projects"
+    ],
+    "icon": "fa-wordpress"
+  },
+  {
+    "id": 15,
+    "name": "E-commerce Website Development",
+    "description": "Create full e-commerce platforms with payment integration.",
+    "price": 200,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Shopping cart",
+      "Payment gateway",
+      "User authentication",
+      "Admin dashboard",
+      "Deployment"
+    ],
+    "icon": "fa-shopping-cart"
+  },
+  {
+    "id": 16,
+    "name": "Chatbot Development",
+    "description": "Build smart chatbots using AI and APIs.",
+    "price": 140,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Dialogflow basics",
+      "AI API usage",
+      "Intent handling",
+      "Deployment",
+      "Real chatbot project"
+    ],
+    "icon": "fa-comments"
+  },
+  {
+    "id": 17,
+    "name": "Mobile App UI Design",
+    "description": "Design mobile app interfaces using modern UI tools.",
+    "price": 85,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Mobile UI principles",
+      "Figma mobile design",
+      "Prototype testing",
+      "UX flow",
+      "App design project"
+    ],
+    "icon": "fa-mobile-alt"
+  },
+  {
+    "id": 18,
+    "name": "Next.js Development",
+    "description": "Build SEO-friendly React apps using Next.js.",
+    "price": 160,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "SSR & SSG",
+      "Routing",
+      "API routes",
+      "Performance optimization",
+      "Deployment"
+    ],
+    "icon": "fa-bolt"
+  },
+  {
+    "id": 19,
+    "name": "Cybersecurity Basics",
+    "description": "Learn how to secure systems and web applications.",
+    "price": 110,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Security fundamentals",
+      "Web vulnerabilities",
+      "Encryption basics",
+      "Ethical hacking intro",
+      "Practical labs"
+    ],
+    "icon": "fa-shield-alt"
+  },
+  {
+    "id": 20,
+    "name": "Cloud Computing Fundamentals",
+    "description": "Understand AWS, cloud storage, and deployment.",
+    "price": 130,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "AWS basics",
+      "Cloud storage",
+      "Deployment",
+      "Scalability",
+      "Cloud security"
+    ],
+    "icon": "fa-cloud"
+  },
+  {
+    "id": 21,
+    "name": "AI for Business",
+    "description": "Use AI tools to improve business productivity.",
+    "price": 95,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "AI tools overview",
+      "Automation",
+      "Business analytics",
+      "Case studies",
+      "Practical usage"
+    ],
+    "icon": "fa-briefcase"
+  },
+  {
+    "id": 22,
+    "name": "Natural Language Processing",
+    "description": "Process and analyze text data using NLP techniques.",
+    "price": 210,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Text processing",
+      "Tokenization",
+      "Sentiment analysis",
+      "NLP models",
+      "Projects"
+    ],
+    "icon": "fa-language"
+  },
+  {
+    "id": 23,
+    "name": "Computer Vision",
+    "description": "Work with image recognition and AI vision systems.",
+    "price": 240,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Image processing",
+      "OpenCV",
+      "Object detection",
+      "Face recognition",
+      "AI projects"
+    ],
+    "icon": "fa-eye"
+  },
+  {
+    "id": 24,
+    "name": "Git & GitHub Mastery",
+    "description": "Learn version control and collaboration using Git.",
+    "price": 55,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Git basics",
+      "Branching",
+      "Merging",
+      "GitHub usage",
+      "Team workflow"
+    ],
+    "icon": "fa-github"
+  },
+  {
+    "id": 25,
+    "name": "Portfolio Building Course",
+    "description": "Create a professional portfolio to showcase your skills.",
+    "price": 45,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Portfolio design",
+      "Project showcase",
+      "Personal branding",
+      "Resume tips",
+      "Live deployment"
+    ],
+    "icon": "fa-user"
+  },
+  {
+    "id": 26,
+    "name": "Interview Preparation",
+    "description": "Prepare for tech interviews with coding and soft skills.",
+    "price": 65,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Coding problems",
+      "Mock interviews",
+      "HR questions",
+      "Resume review",
+      "Confidence building"
+    ],
+    "icon": "fa-user-tie"
+  }
+]

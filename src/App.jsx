@@ -1,3 +1,4 @@
+import Cards from "./Component/CardSection/Cards"
 import Tools from "./Component/DigitalTools/Tools"
 import Hero from "./Component/HeroSection/Hero"
 import Navbar from "./Component/Navbar/Navbar"
@@ -12,6 +13,7 @@ function App() {
       <Hero></Hero>
       <Rating></Rating>
       <Tools></Tools>
+      <Cards></Cards>
     </>
   )
 }

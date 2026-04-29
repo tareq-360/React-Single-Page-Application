@@ -1,0 +1,51 @@
+import React, { use } from 'react';
+import icon from '../../assets/assets/products/design-tool.png'
+
+const cardDataFetch = fetch('/public/fetchData.json').then(res => res.json());
+
+const Cards = () => {
+    const cardData = use(cardDataFetch);
+    //  console.log(cardData);
+    // { cardData.map(data => console.log(data.name)) };
+    return (
+        <div className=' container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5'>
+            {cardData.map(data =>
+                <div className=" bg-base-100 shadow-sm">
+                    <div className="card-body flex flex-col h-full">
+                        <div className='flex justify-end'>
+                            <span className="badge badge-xs badge-warning">{data.tag}</span>
+                        </div>
+                        <div>
+                            <img className=' bg-gray-100 rounded-full  p-2 shadow-md' src={icon} alt="" />
+                        </div>
+                        <div className="">
+                            <h2 className="text-3xl font-bold">{data.name}</h2>
+                            <p>
+                                {data.description}
+                            </p>
+                            <span className="text-xl font-bold">${data.price}/{data.period}</span>
+                        </div>
+                        <ul className="mt-6 flex flex-col flex-1 gap-2 text-xs">
+                            {data.features.map(Data =>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                                    <span>{Data}</span>
+                                </li>
+                            )}
+
+
+                        </ul>
+                        <div className="mt-6">
+                            <button className="btn text-white btn-block rounded-full bg-gradient-to-r from-indigo-600 to-purple-600">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            )}
+
+
+        </div>
+    );
+};
+
+export default Cards;
