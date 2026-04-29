@@ -11,7 +11,7 @@ const Hero = () => {
                 </div>
                 <div className=' flex-1 pl-5'>
                     <div className=''>
-                        <div className='bg-[#E1E7FF] rounded-full p-[2px] w-[60%]'>
+                        <div className='bg-[#E1E7FF] rounded-full p-[2px] max-w-[60%] md:max-w-[80%]'>
                             <p className=' flex  text-blue-600 rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...  bg-clip-text text-transparent'>
                                 <span className='flex justify-center items-center '>
                                     <CircleStop size={10} color="#342bb6"></CircleStop>
@@ -27,7 +27,7 @@ const Hero = () => {
 
                             Explore Products
                         </p>
-                        <button className="btn btn-primary mx-5 rounded-full">Explore Products</button>
+                        <button className="btn btn-primary mx-2 lg:mx-5 rounded-full">Explore Products</button>
                         <button className="btn rounded-full  border border-orange-500"><img src={play}></img> Explore Products</button>
                     </div>
                 </div>

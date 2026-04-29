@@ -38,7 +38,7 @@ const Pricing = ({ cardData }) => {
 
                                 </ul>
                                 <div className="mt-6">
-                                    <button className={`${data.name==="Team" ? "bg-white text-black btn w-full rounded-full" : "btn text-white btn-block rounded-full bg-gradient-to-r from-indigo-600 to-purple-600"}`}>Buy Now</button>
+                                    <button className={`${data.name==="Team" ? "bg-white text-black btn w-full rounded-full" : "btn text-white btn-block rounded-full bg-gradient-to-r from-indigo-600 to-purple-600"}`}> {data.tag==="Free Trial" ? "Try Now" : "Buy Now"}</button>
                                 </div>
                             </div>
                         </div>
