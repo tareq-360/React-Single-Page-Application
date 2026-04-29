@@ -7,10 +7,10 @@ const Hero = () => {
         <div className=' container mx-auto'>
             <div className="hero bg-base-200 min-h-screen flex flex-col md:flex-row-reverse p-5 gap-5">
                 <div className=" flex-1 ">
-                    <img className='w-[80%]' src={banner} alt="" />
+                    <img className='w-[80%] mx-auto' src={banner} alt="" />
                 </div>
-                <div className=' flex-1'>
-                    <div>
+                <div className=' flex-1 pl-5'>
+                    <div className=''>
                         <p className='bg-[#E1E7FF] rounded-full p-[2px] w-[60%]'>
                             <p className=' flex  text-blue-600 rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...  bg-clip-text text-transparent'><span className='flex justify-center items-center '><CircleStop size={10} color="#342bb6"></CircleStop></span> New: AI-Powered Tools Available</p>
                         </p>
