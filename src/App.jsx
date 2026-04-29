@@ -10,7 +10,7 @@ import Rating from "./Component/RatingSection/Rating"
 import Explore from "./Component/ExploreSection/Explore"
 import Footer from "./Component/FooterSection/Footer"
 
-const cardDataFetch = fetch('/public/fetchData.json').then(res => res.json());
+const cardDataFetch = fetch('/fetchData.json').then(res => res.json());
 
 function App() {
   const cardData = use(cardDataFetch);
