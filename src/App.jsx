@@ -7,6 +7,8 @@ import Hero from "./Component/HeroSection/Hero"
 import Navbar from "./Component/Navbar/Navbar"
 import Pricing from "./Component/PricingSection/Pricing"
 import Rating from "./Component/RatingSection/Rating"
+import Explore from "./Component/ExploreSection/Explore"
+import Footer from "./Component/FooterSection/Footer"
 
 const cardDataFetch = fetch('/public/fetchData.json').then(res => res.json());
 
@@ -26,6 +28,9 @@ function App() {
 
       <ASection></ASection>
       <Pricing cardData={cardData}></Pricing>
+
+      <Explore></Explore>
+      <Footer></Footer>
     </>
   )
 }

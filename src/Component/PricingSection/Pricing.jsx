@@ -13,9 +13,9 @@ const Pricing = ({ cardData }) => {
                 <div className=' container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10'>
                     {cardData.map((data, ind) => (data.name == "Pro" || data.name == "Team" || data.name == "Starter") &&
                         <div key={ind} className=" bg-base-100 shadow-sm">
-                            <div className={`card-body flex flex-col h-full ${data.tag ==="Most popular" && "bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-md"}`}>
+                            <div className={`card-body flex flex-col h-full ${data.tag ==="Most popular" && "bg-gradient-to-b from-indigo-600 to-purple-600 text-white rounded-md"}`}>
                                 <div className='flex justify-end'>
-                                    <span className={`${data.tag ==="Most popular" ? " bg-orange-600 font-bold rounded-full p-2 text-white" : "badge badge-xs badge-warning"} `}>{data.tag}</span>
+                                    <span className={`${data.tag ==="Most popular" ? " bg-orange-600 font-semibold text-[12px] rounded-full p-1 text-white" : "badge badge-xs badge-warning"} `}>{data.tag}</span>
                                 </div>
                                 <div>
                                     <img className=' bg-gray-100 rounded-full  p-2 shadow-md' src={icon} alt="" />
@@ -38,7 +38,7 @@ const Pricing = ({ cardData }) => {
 
                                 </ul>
                                 <div className="mt-6">
-                                    <button className="btn text-white btn-block rounded-full bg-gradient-to-r from-indigo-600 to-purple-600">Buy Now</button>
+                                    <button className={`${data.name==="Team" ? "bg-white text-black btn w-full rounded-full" : "btn text-white btn-block rounded-full bg-gradient-to-r from-indigo-600 to-purple-600"}`}>Buy Now</button>
                                 </div>
                             </div>
                         </div>
