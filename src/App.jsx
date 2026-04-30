@@ -11,6 +11,7 @@ import Explore from "./Component/ExploreSection/Explore"
 import Footer from "./Component/FooterSection/Footer"
 import Carts from "./Component/CartsSection/Carts"
 import SelectedCarts from "./Component/SelectedCarts/SelectedCarts"
+import { ToastContainer } from "react-toastify"
 
 const cardDataFetch = fetch('/fetchData.json').then(res => res.json());
 
@@ -50,6 +51,7 @@ function App() {
 
       <Explore></Explore>
       <Footer></Footer>
+      <ToastContainer></ToastContainer>
     </>
   )
 }
