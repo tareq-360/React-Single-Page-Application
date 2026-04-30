@@ -1,16 +1,21 @@
-import React, { Suspense, use } from 'react';
+import React, { Suspense, use, useState } from 'react';
 import icon from '../../assets/assets/products/design-tool.png'
 
 
 
 
-const Cards = ({cardData}) => {
-    
+const Cards = ({cardData,IsActive,selectedItems,setSelectedItems}) => {
+    // console.log(IsActive);
     //  console.log(cardData);
     // {cardData.map(data => console.log(data.name)) };
+    const buyBtnHandle=(clickedData)=>{
+        const newItems=[...selectedItems,clickedData];
+        setSelectedItems(newItems);
+        // console.log(`Length is = ${newItems.length}`);
+    }
     return (
         
-            <div className=' container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10'>
+            <div className={`container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10 ${! IsActive && "hidden"}`}>
                 {cardData.map((data , ind) =>
                     <div key={ind} className=" bg-base-100 shadow-sm">
                         <div className="card-body flex flex-col h-full">
@@ -38,7 +43,7 @@ const Cards = ({cardData}) => {
 
                             </ul>
                             <div className="mt-6">
-                                <button className="btn text-white btn-block rounded-full bg-gradient-to-r from-indigo-600 to-purple-600">Buy Now</button>
+                                <button onClick={()=>buyBtnHandle(data)} className="btn text-white btn-block rounded-full bg-gradient-to-r from-indigo-600 to-purple-600">Buy Now</button>
                             </div>
                         </div>
                     </div>

@@ -7,7 +7,7 @@ const Hero = () => {
         <div className=' container mx-auto'>
             <div className="hero bg-base-200 min-h-screen flex flex-col md:flex-row-reverse p-5 gap-5">
                 <div className=" flex-1 ">
-                    <img className='w-[80%] mx-auto' src={banner} alt="" />
+                    <img className='w-[80%] mx-auto shadow-lg' src={banner} alt="" />
                 </div>
                 <div className=' flex-1 pl-5'>
                     <div className=''>

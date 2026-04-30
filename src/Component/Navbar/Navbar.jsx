@@ -1,7 +1,8 @@
 import { ShoppingCart } from 'lucide-react';
 import React from 'react';
 
-const Navbar = () => {
+const Navbar = ({selectedItems}) => {
+    const len=selectedItems.length;
     return (
         <div className=' sticky top-0'>
             <div className="navbar bg-base-100 p-5  container mx-auto">
@@ -32,8 +33,13 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end gap-3">
-                    <a className='' href="#"><ShoppingCart></ShoppingCart></a>
-                    <a  className="" href="#">Login</a>
+                    <div className="indicator">
+                        <span className={len ? "indicator-item badge badge-secondary w-5" : "hidden"}>{len}</span>
+                        <a className='' href="#"><ShoppingCart></ShoppingCart></a>
+                        {/* <button className="btn">inbox</button> */}
+                    </div>
+                    
+                    <a className="" href="#">Login</a>
                     <a className="btn bg-gradient-to-r from-indigo-600 to-purple-600  rounded-full font-bold text-white">Get Started</a>
                 </div>
             </div>

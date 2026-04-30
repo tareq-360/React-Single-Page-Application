@@ -3,7 +3,7 @@ import React from 'react';
 const Rating = () => {
     return (
         <div className=' '>
-            <div className="shadow container mx-auto grid grid-cols-3 p-5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
+            <div className="shadow mx-auto grid grid-cols-3 p-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
                 <div className="md:mx-auto">
                     
                     <div className="stat-value text-white">25.6K</div>
