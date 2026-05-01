@@ -1,16 +1,22 @@
-# React + Vite
+Project Name : Single Page React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In thia Application we give some learning course for CSE Student and 
+we try to give best by this application.
 
-Currently, two official plugins are available:
+Technology Used:
+1. React.js
+2. TailwindCss
+3. JavaScript (ES6+)
+4. Daisyui
+5. React Tostfy
+6. HTML
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Project Features :
+1.Buy Now Click Button For Buying any Course.
+2.Add to cart course.
+3.You can delete any item to cart 
+4.Selected item proceed 
+5.Responsive
+6.Easy to use application
+ 
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
